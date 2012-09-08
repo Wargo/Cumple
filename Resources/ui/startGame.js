@@ -1,21 +1,28 @@
 
 module.exports = function() {
 	
+	var num, total, time, sec, finished;
+	
+	setDefaultValues();
+
+	function setDefaultValues() {
+		num = 2; // Años
+		total = num;
+		time = 15000; // milisegundos
+		sec = 0;
+		finished = false;
+	}
+	
 	var win = Ti.UI.createWindow({
 		backgroundImage:'images/bg_game.png',
 		backgroundColor:'#FFF',
 		left:320
 	});
 	
-	var total = num = 2;
 	var top = 300;
 	var left = 100;
-	var time = 3000; // milisegundos
-	var sec = 0;
-	var finished = false;
 	
 	var countdown = Ti.UI.createLabel({
-		text:time / 1000,
 		top:10,
 		left:10
 	});
@@ -29,6 +36,12 @@ module.exports = function() {
 	var timeout = Ti.UI.createImageView({
 		top:400,
 		image:'images/timeout.png'
+	});
+	
+	timeout.addEventListener('singletap', function() {
+		
+		win.close();
+		
 	});
 	
 	setTimeout(function() {
@@ -45,12 +58,12 @@ module.exports = function() {
 	var interval = setInterval(function() {
 		
 		sec ++;
-		countdown.text = (time / 1000) - sec;
-		if (sec >= time / 1000) {
+		countdown.text = (((time / 100) - sec) / 10).toFixed(1);
+		if (sec >= time / 100) {
 			clearInterval(interval);
 		}
 		
-	}, 1000);
+	}, 100);
 	
 	for (i = 0; i < num; i ++) {
 		
@@ -74,8 +87,12 @@ module.exports = function() {
 
 			if (total === 0) {
 				finished = true;
-				alert('yujuuu');
 				clearInterval(interval);
+				
+				var startGame = require('ui/finish');
+				
+				new startGame().open({opacity:1});
+				
 			}
 			
 		});

@@ -14,8 +14,40 @@ module.exports = function() {
 	
 	button.addEventListener('singletap', function() {
 		
-		var startGame = require('ui/startGame');
-		new startGame().open({left:0});
+		var sec = 3;
+		
+		var remaining = Ti.UI.createLabel({
+			text: sec,
+			font:{fontSize:100},
+			textAlign:'center',
+			width:300
+		});
+		
+		win.add(remaining);
+		
+		var interval = setInterval(function() {
+			
+			sec --;
+			
+			if (sec === 0) {
+				
+				remaining.text = 'GO!';
+				
+			} else if (sec == -1) {
+				
+				clearInterval(interval);
+				
+				var startGame = require('ui/startGame');
+				
+				new startGame().open({left:0});
+				
+			} else {
+				
+				remaining.text = sec;
+				
+			}
+			
+		}, 1000);
 		
 	});
 	
