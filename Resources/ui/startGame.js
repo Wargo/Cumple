@@ -15,9 +15,9 @@ module.exports = function() {
 	var finished = false;
 	
 	var countdown = Ti.UI.createLabel({
-		text: time / 1000,
-		top: 10,
-		left: 10
+		text:time / 1000,
+		top:10,
+		left:10
 	});
 	win.add(countdown);
 	
