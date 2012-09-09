@@ -79,7 +79,7 @@ module.exports = function() {
 	});
 	
 	var description = Ti.UI.createLabel({
-		text:'¡Ya son 32 años! Veamos si has perdido reflejos con la edad... a ver si eres capaz de apagar todas las velas en menos de 15 segundos. ¡Mucha suerte!',
+		text:'¡Ya son 32 años! Veamos si has perdido reflejos con la edad... a ver si eres capaz de apagar todas las velas en menos de 10 segundos. ¡Mucha suerte!',
 		font:{fontFamily:Ti.App.font, fontSize:30},
 		shadowOffset:{x:1,y:1},
 		shadowColor:'#000',

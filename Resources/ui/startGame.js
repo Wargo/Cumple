@@ -9,7 +9,7 @@ module.exports = function(sound) {
 		
 		num = 32; // Años
 		total = num;
-		time = 15000; // milisegundos
+		time = 10000; // milisegundos
 		sec = 0;
 		finished = false;
 		
