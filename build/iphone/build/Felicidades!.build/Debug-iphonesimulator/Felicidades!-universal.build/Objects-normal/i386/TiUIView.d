@@ -36,18 +36,12 @@ dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/ASI/ASIProgressDelegate.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/ASI/ASICacheDelegate.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/ASI/ASINetworkQueue.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/Ti2DMatrix.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOS3DMatrix.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOSProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOSAdViewProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIViewProxy.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiViewProxy.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiApp.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiHost.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/Bridge.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiStylesheet.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/KrollBridge.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/XHRBridge.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootViewController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiWindowProxy.h \

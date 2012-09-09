@@ -1,13 +1,12 @@
 dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/MGSplitView/MGSplitView.m \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/MGSplitView/MGSplitView.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/MGSplitView/MGSplitViewController.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBase.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiThreading.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiPublicAPI.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiApp.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiHost.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiProxy.h \
+  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBase.h \
+  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiThreading.h \
+  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiPublicAPI.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiEvaluator.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/KrollContext.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/headers/TiCore/TiCore.h \
@@ -29,7 +28,6 @@ dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiFile.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBuffer.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBlob.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/XHRBridge.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootViewController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiWindowProxy.h \

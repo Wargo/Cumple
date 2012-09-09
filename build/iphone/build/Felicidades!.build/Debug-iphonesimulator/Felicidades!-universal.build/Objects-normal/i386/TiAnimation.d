@@ -29,8 +29,6 @@ dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/Ti2DMatrix.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOS3DMatrix.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOSProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIiOSAdViewProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIViewProxy.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiViewProxy.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiUIView.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiGradient.h \

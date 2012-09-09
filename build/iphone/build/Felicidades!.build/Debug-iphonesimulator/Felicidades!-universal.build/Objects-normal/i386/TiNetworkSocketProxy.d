@@ -15,8 +15,4 @@ dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/headers/TiCore/TiContextRefPrivate.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/KrollCallback.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/KrollObject.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiNetworkSocketTCPProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiStreamProxy.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/Tibuffer.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBlob.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/AsyncSocket.h
+  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiNetworkSocketTCPProxy.h

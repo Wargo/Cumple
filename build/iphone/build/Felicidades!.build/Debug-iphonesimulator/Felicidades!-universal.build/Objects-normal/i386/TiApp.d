@@ -27,7 +27,6 @@ dependencies: \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiFile.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBuffer.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiBlob.h \
-  /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/XHRBridge.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootViewController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiRootController.h \
   /Users/albertsorianogarcia/Documents/Titanium\ Studio\ Workspace/Felicidades!/build/iphone/Classes/TiWindowProxy.h \

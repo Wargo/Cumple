@@ -6,6 +6,14 @@ module.exports = function() {
 		backgroundColor:'#FFF'
 	});
 	
+	var sound = Ti.Media.createSound({
+		url:'ui/sounds/parchis.mp3',
+		looping:true,
+		time:58.6
+	});
+
+	sound.play();
+
 	var button = Ti.UI.createLabel({
 		text:'¡Empezar!',
 		bottom:-150,
@@ -52,9 +60,13 @@ module.exports = function() {
 				
 				clearInterval(interval);
 				
+				setTimeout(function() {
+					win.close();
+				}, 300);
+				
 				var startGame = require('ui/startGame');
 				
-				new startGame().open({left:0});
+				new startGame(sound).open({left:0});
 				
 			} else {
 				
@@ -91,11 +103,14 @@ module.exports = function() {
 	
 	win.add(bgDescription);
 	win.add(description);
-	win.add(button);
+	
+	setTimeout(function() {
+		win.add(button);
+		button.animate({bottom:20});
+	}, 8000);
 	
 	bgDescription.animate({opacity:0.5, delay:500, duration:1000});
 	description.animate({opacity:1, delay:500, duration:1000});
-	button.animate({bottom:20, delay:6000});
 	
 	return win;
 	

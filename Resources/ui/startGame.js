@@ -1,5 +1,5 @@
 
-module.exports = function() {
+module.exports = function(sound) {
 	
 	var num, total, time, sec, finished;
 	
@@ -32,25 +32,40 @@ module.exports = function() {
 		font:{fontSize:24, fontFamily:Ti.App.font},
 		text:'Tiempo: ' + (time / 1000),
 		shadowOffset:{x:1,y:1},
-		shadowColor:'#666'
+		shadowColor:'#000'
 	});
 	win.add(countdown);
 	
 	var timeoutBG = Ti.UI.createView({
-		backgroundColor:'#CCC',
+		backgroundColor:'#000',
 		opacity:0
 	});
 	
-	var timeout = Ti.UI.createImageView({
-		top:400,
-		image:'images/timeout.png'
+	var timeoutText = Ti.UI.createLabel({
+		color:'yellow',
+		font:{fontSize:40, fontFamily:Ti.App.font},
+		text:'¡Se te acabó el tiempo!',
+		textAlign:'center',
+		shadowOffset:{x:1,y:1},
+		shadowColor:'#000'
 	});
 	
-	timeout.addEventListener('singletap', function() {
-		
+	var back = Ti.UI.createLabel({
+		text:'Volver',
+		bottom:20,
+		left:20,
+		opacity:0,
+		color:'yellow',
+		font:{fontSize:45, fontFamily:Ti.App.font},
+		shadowOffset:{x:1,y:1},
+		shadowColor:'#000',
+		zIndex:100
+	});
+	
+	back.addEventListener('singletap', function() {
+		sound.stop();
 		win.close();
 		Ti.App.begin();
-		
 	});
 	
 	setTimeout(function() {
@@ -58,10 +73,13 @@ module.exports = function() {
 		if (!finished) {
 			
 			win.add(timeoutBG);
-			win.add(timeout);
+			win.add(timeoutText);
 			
-			timeoutBG.opacity = 0.3;
-			timeout.animate({top:50});
+			win.add(back);
+	
+			back.animate({opacity:1, delay:1000});
+			
+			timeoutBG.opacity = 0.6;
 			
 		}
 		
@@ -89,9 +107,7 @@ module.exports = function() {
 		var candle = Ti.UI.createImageView({
 			image:'ui/images/candle_on_' + Math.floor(Math.random() * 9) % 2 + '.png',
 			top:newTop,
-			left:newLeft,
-			height:20,
-			width:20
+			left:newLeft
 		});
 		
 		win.add(candle);
@@ -112,7 +128,13 @@ module.exports = function() {
 			total --;
 
 			if (total === 0) {
+				
+				sound.stop();
+				
+				win.close();
+				
 				finished = true;
+				
 				clearInterval(interval);
 				
 				var startGame = require('ui/finish');
