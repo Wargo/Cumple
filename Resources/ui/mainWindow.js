@@ -2,25 +2,40 @@
 module.exports = function() {
 	
 	var win = Ti.UI.createWindow({
-		backgroundImage:'images/home.png',
+		backgroundImage:'ui/images/bitches.png',
 		backgroundColor:'#FFF'
 	});
 	
-	var button = Ti.UI.createImageView();
-	button.image = 'images/continue.png';
-	button.bottom = 50;
-	button.width = 200;
-	button.height = 50;
+	var button = Ti.UI.createLabel({
+		text:'¡Empezar!',
+		bottom:-150,
+		font:{fontFamily:Ti.App.font, fontSize:50},
+		shadowOffset:{x:1,y:1},
+		shadowColor:'#000',
+		color:'yellow'
+	});
 	
 	button.addEventListener('singletap', function() {
+		
+		win.remove(button);
+		
+		var bgDescription = Ti.UI.createView({
+			opacity:0.6,
+			backgroundColor:'#000'
+		});
+		
+		win.add(bgDescription);
 		
 		var sec = 3;
 		
 		var remaining = Ti.UI.createLabel({
 			text: sec,
-			font:{fontSize:100},
+			font:{fontSize:100, fontFamily:Ti.App.font},
 			textAlign:'center',
-			width:300
+			width:300,
+			shadowOffset:{x:1,y:1},
+			shadowColor:'#000',
+			color:'yellow'
 		});
 		
 		win.add(remaining);
@@ -51,7 +66,36 @@ module.exports = function() {
 		
 	});
 	
+	var description = Ti.UI.createLabel({
+		text:'¡Ya son 32 años! Veamos si has perdido reflejos con la edad... a ver si eres capaz de apagar todas las velas en menos de 15 segundos. ¡Mucha suerte!',
+		font:{fontFamily:Ti.App.font, fontSize:30},
+		shadowOffset:{x:1,y:1},
+		shadowColor:'#000',
+		color:'yellow',
+		opacity:0,
+		textAlign:'center',
+		top:10,
+		left:10,
+		right:10
+	});
+	
+	var bgDescription = Ti.UI.createView({
+		opacity:0,
+		backgroundColor:'#000',
+		top:5,
+		left:5,
+		right:5,
+		bottom:110,
+		borderRadius:10
+	});
+	
+	win.add(bgDescription);
+	win.add(description);
 	win.add(button);
+	
+	bgDescription.animate({opacity:0.5, delay:500, duration:1000});
+	description.animate({opacity:1, delay:500, duration:1000});
+	button.animate({bottom:20, delay:6000});
 	
 	return win;
 	

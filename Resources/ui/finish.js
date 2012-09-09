@@ -9,7 +9,7 @@ module.exports = function() {
 	
 	var congratz = Ti.UI.createLabel({
 		text:'¡FELICIDADES!',
-		font:{fontSize:30}
+		font:{fontSize:45, fontFamily:Ti.App.font} // Chalkduster, Party LET, Zapfino
 	});
 	
 	win.add(congratz);

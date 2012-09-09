@@ -5,7 +5,7 @@ reporting an issue to help us understand your environment, build settings
 and aid in debugging. Please attach this log to any issue that you report.
 ================================================================================
 
-Starting build at 09/08/12 14:15
+Starting build at 09/09/12 19:01
 
 Build details:
 
@@ -31,7 +31,7 @@ Platform: Darwin Kernel Version 11.3.0: Thu Jan 12 18:47:41 PST 2012; root:xnu-1
 
 Xcode path is: /Developer
 
-
+[INFO] Detected third-party module: ti.viewshadow/0.3[INFO] Detected third-party module: ti.viewshadow/0.3
 githash=999c68a, existing_git_hash=999c68a
 writing contents of /Users/albertsorianogarcia/Documents/Titanium Studio Workspace/Felicidades!/build/iphone/project.xcconfig:
 
