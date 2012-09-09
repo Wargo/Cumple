@@ -55,6 +55,8 @@ module.exports = function() {
 	
 	back.addEventListener('click', function() {
 		
+		sound.stop();
+		
 		win.close();
 		
 		Ti.App.begin();
