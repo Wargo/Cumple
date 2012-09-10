@@ -7,7 +7,7 @@ module.exports = function(sound) {
 
 	function setDefaultValues() {
 		
-		num = 32; // Años
+		num = 31; // Años
 		total = num;
 		time = 10000; // milisegundos
 		sec = 0;
